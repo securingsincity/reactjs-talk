@@ -1,0 +1,10 @@
+{
+  "name": "reactjs-talk",
+  "version": "0.0.0",
+  "authors": [
+    "James Hrisho <james.hrisho@gmail.com>"
+  ],
+  "dependencies": {
+    "reveal.js": "*"
+  }
+}
