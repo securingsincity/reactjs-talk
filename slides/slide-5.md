@@ -1,6 +1,6 @@
 ##How Does React Work?
 
-* Most people will use JSX transformer to take this:
+Most people will use JSX transformer to take this:
 
 ```javascript
 /** @jsx React.DOM */
@@ -12,8 +12,9 @@ var HelloMessage = React.createClass({
 
 React.renderComponent(<HelloMessage name="John" />, mountNode);
 ```
+<!-- .element: class="fragment" data-fragment-index="2" -->
 
-* And turn it into this:
+And turn it into this: <!-- .element: class="fragment" data-fragment-index="4" -->
 
 ```javascript
 /** @jsx React.DOM */
@@ -25,3 +26,4 @@ var HelloMessage = React.createClass({displayName: 'HelloMessage',
 
 React.renderComponent(HelloMessage( {name:"John"} ), mountNode);
 ```
+<!-- .element: class="fragment" data-fragment-index="4" -->
