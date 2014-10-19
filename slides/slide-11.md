@@ -6,4 +6,4 @@
 ###Shameless plug for my project<!-- .element: class="fragment" data-fragment-index="1" -->
  https://github.com/securingsincity/backbone-react-ui<!-- .element: class="fragment" data-fragment-index="1" -->
 
- * A set of table componenets (pagination,filtering,sorting)<!-- .element: class="fragment" data-fragment-index="1" --> 
+ * A set of table components (pagination,filtering,sorting)<!-- .element: class="fragment" data-fragment-index="1" --> 
