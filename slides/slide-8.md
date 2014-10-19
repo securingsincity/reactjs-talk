@@ -10,4 +10,4 @@
 
 <!-- .element: class="fragment" data-fragment-index="3" -->
 The best part? You can use it on anything.
-It makes testing `window` DOM elements
+It makes testing `window` DOM elements easy

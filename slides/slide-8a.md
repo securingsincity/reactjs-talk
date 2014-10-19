@@ -3,14 +3,14 @@
 ###Jest
 ```javascript
 var React = require('react/addons');
-var gronkButton = require('../js/button.jsx');
+var GronkButton = require('../js/button.jsx');
 var TestUtils = React.addons.TestUtils;
 ```
 ```javascript
 describe('button test', function() {
   it('changes the text after multiple clicks', function() {
 
-    var button = <gronkButton name="hi"/>;
+    var button = <GronkButton name="hi"/>;
     TestUtils.renderIntoDocument(button);
     var div = TestUtils.findRenderedDOMComponentWithTag( button, 'div');
     var buttonDom = TestUtils.findRenderedDOMComponentWithTag(button, 'button');

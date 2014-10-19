@@ -8,7 +8,7 @@ var gulp = require('gulp'),
 gulp.task('default',
   connect.server({
     root: [__dirname],
-    port: 9002,
+    port: 9001,
     livereload: true,
     open:{
       browser:  'Google Chrome' //'chrome'
