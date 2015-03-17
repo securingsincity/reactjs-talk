@@ -22,5 +22,5 @@ var ClickMeButton = React.createClass({
   }
 });
 
-React.renderComponent(<ClickMeButton name='Click Me'/>, document.getElementById("content"));
+React.render(<ClickMeButton name='Click Me'/>, document.getElementById("content"));
 ```

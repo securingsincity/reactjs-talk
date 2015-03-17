@@ -11,4 +11,4 @@ The best part? You can use it on anything.
 It makes testing `window` DOM elements easy
 
 <!-- .element: class="fragment" data-fragment-index="4" -->
-Bad news: No code coverage easily built in.....
+We use our own version of jest with code coverage and shimming

@@ -10,7 +10,7 @@ var HelloMessage = React.createClass({
   }
 });
 
-React.renderComponent(<HelloMessage name="John" />, mountNode);
+React.render(<HelloMessage name="John" />, document.getElementById("container"));
 ```
 <!-- .element: class="fragment" data-fragment-index="2" -->
 
@@ -20,10 +20,10 @@ And turn it into this: <!-- .element: class="fragment" data-fragment-index="4" -
 /** @jsx React.DOM */
 var HelloMessage = React.createClass({displayName: 'HelloMessage',
   render: function() {
-    return React.DOM.div(null, "Hello ", this.props.name);
+    return React.createElement("div", null, "Hello ", this.props.name);
   }
 });
 
-React.renderComponent(HelloMessage( {name:"John"} ), mountNode);
+React.render(React.createElement(HelloMessage( {name:"John"} )), document.getElementById("container"));
 ```
 <!-- .element: class="fragment" data-fragment-index="4" -->
